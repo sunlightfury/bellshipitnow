@@ -1,0 +1,27 @@
+{
+  "short_name": "Safmarine",
+  "name": "Safmarine.com",
+  "icons": [
+    {
+      "src": "/Assets_sc9/Safmarine/images/icons/app-192x192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/Assets_sc9/Safmarine/images/icons/app-512x512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#003e5e",
+  "display": "standalone",
+  "theme_color": "#003e5e",
+  "prefer_related_applications": true,
+  "related_applications": [
+    {
+      "platform": "play",
+      "id": "com.maersk.safmarine"
+    }
+  ]
+}

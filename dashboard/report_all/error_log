@@ -1,0 +1,4 @@
+[25-May-2019 03:52:47 UTC] PHP Deprecated:  Imagick::clone method is deprecated and it's use should be avoided in /home/d618a39szzjv/public_html/dashboard/tcpdf/tcpdf.php on line 8221
+[25-May-2019 03:52:48 UTC] PHP Notice:  Undefined index: HTTP_ACCEPT_LANGUAGE in /home/d618a39szzjv/public_html/lib/config.lang.php on line 11
+[25-May-2019 03:52:48 UTC] PHP Deprecated:  Imagick::clone method is deprecated and it's use should be avoided in /home/d618a39szzjv/public_html/dashboard/tcpdf/tcpdf.php on line 8221
+[24-Jun-2019 19:43:33 UTC] PHP Deprecated:  Imagick::clone method is deprecated and it's use should be avoided in /home/d618a39szzjv/public_html/dashboard/tcpdf/tcpdf.php on line 8221

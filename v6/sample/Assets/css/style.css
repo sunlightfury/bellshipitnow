@@ -1,0 +1,88 @@
+.img-set img{
+    width:100%;
+   
+}
+.img-set1 img{
+    width:85%;
+}
+.img-set2 img{
+    width:70%;
+}
+.bg-color-set{
+    background-color: #6685b1;
+    padding:50px 0px;
+    margin:40px 0px;
+}
+/* .bg-clr-set{
+   background-image: linear-gradient(to right, red , yellow);
+} */
+.ign-menu__main li a{
+color:white;
+}
+.footer-sec{
+    background-image: linear-gradient(to right, #f69001 , #e15300);
+    padding:50px 0px;
+}
+.footer-sec h2{
+    font-size:30px;
+    font-weight: bolder;
+    color:white;
+    margin-left:20px;
+}
+.li-text-set ul li{
+    list-style-type: none;
+    margin:10px;
+}
+.li-text-set ul li a{
+    text-decoration: none;
+    font-size:16px;
+    color:white;
+}
+.li-text-set ul li a:hover{
+    /* font-size:18px; */
+    color:#004994;
+}
+.social-icon-set a i{
+font-size: 26px;
+color:white;
+}
+.social-icon-set a{
+    font-size: 26px;
+    background-color: #e15300;
+    border-radius: 50% 50% 50% 50%;
+    margin:8px;
+}
+.social-icon-set a:hover{
+    background-color: #923d0c;
+}
+.footer-set{
+    margin-top:50px;
+}
+.pro-sec{
+    background-color:#f6f6f6;
+    padding:50px 0px;
+    margin-top:30px;
+}
+.img-sec img{
+    position:center;
+    width:100%;
+}
+.txt-setup p{
+    margin:30px 0px 50px;
+    font-size:20px;
+}
+.btn-set a{
+    background-color:#004994;
+    text-align:center;
+    color:white;
+    margin:20px 0px;
+    text-decoration:none;
+}
+.footer-link h4{
+    color:#004994;
+    font-size:25px;
+    margin:0px 40px;
+}
+.clr{
+    color:#004994;
+}

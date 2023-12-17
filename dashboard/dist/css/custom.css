@@ -1,0 +1,53 @@
+/* custom style */
+
+/* common */
+.maw-150{max-width: 300px;}
+.maw-600{max-width: 600px;}
+.border-gray{border: 1px solid #ddd;}
+.modal-xl{max-width: 1170px !important;}
+/* common */
+
+/* component */
+.form-bx label{
+	font-size: 18px;
+}
+.custom-alert{
+	position: relative;
+}
+.custom-alert .close{
+	font-size: 2rem;
+	position: absolute;
+	right: 0;
+	top: 0;
+	padding: 0.3rem 0.5rem;
+}
+.custom-alert.alert-success *{
+	color: #3a5927;
+}
+/* component */
+
+.viabox-works-dv ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.viabox-works-dv li{
+	margin-bottom: 30px;
+}
+.viabox-works-dv li .icon{
+	display: block;
+	height: 80px;
+	width: 80px;
+	line-height: 80px;
+	border-radius: 100%;
+	color: #ddd;
+	border: 5px solid #ddd;
+	margin: 0 auto 15px;
+	font-size: 30px;
+}
+
+/* responsive */
+@media(max-width: 766px){
+	.table-bx{overflow-x: scroll;}
+	.table-bx table{width: 600px;}
+}

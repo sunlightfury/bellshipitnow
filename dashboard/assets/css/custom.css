@@ -1,0 +1,25 @@
+/* revamp css */
+.bg-color-head{
+    background-image: linear-gradient(to right, #f69001 , #e15300)!important;
+    color:white;
+  }
+  .font-size{
+      font-size:30px;
+      color:white;
+  }
+  .font-size:hover{
+    font-size:35px;
+    color:white;
+  }
+  .side-bar-clr ul li{
+    background-image: linear-gradient(to right, #f69001 , #e15300)!important;
+    color:white!important;
+  }
+  .left-sidebar-clr{
+      background-color:gray!important;
+  }
+  .input-focus:focus {
+	outline: none !important;
+    border:1px solid #e15300;
+    box-shadow: 0 0 10px #e15300;
+}

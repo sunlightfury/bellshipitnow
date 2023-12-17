@@ -1,0 +1,117 @@
+<!DOCTYPE html><!--[if lte IE 9]>
+<html class="lt-ie9">
+<![endif]--><!--[if gt IE 9]><!--><html class=gt-ie9><!--<![endif]-->
+<!-- Mirrored from sample/dashboard/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 29 Oct 2019 11:33:10 GMT -->
+<head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><meta name=viewport content="width=device-width,initial-scale=1"><title>Dashboard</title><script>var dataLayer = [];
+
+    function gaqPushEvent(category, action, label) {
+      if (typeof label != "undefined") {
+        dataLayer.push({'event': 'GAEvent', 'category': category, 'action': action, 'label': label});
+      } else {
+        dataLayer.push({'event': 'GAEvent', 'category': category, 'action': action});
+      }
+    }
+    //ONLY SAVE CID/CST IF WE HAVE BOTH
+    var cid = window.localStorage.getItem('personId'),
+      cst = window.localStorage.getItem('customerCode');
+    if (cid && cst){
+      dataLayer.push({'cid': cid, 'cst': cst});
+    }
+    (function(w, d, s, l, i) {
+      w[l] = w[l] || [];
+      w[l].push({'gtm.start': new Date().getTime(), event: 'gtm.js'});
+      var f = d.getElementsByTagName(s)[0], j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : '';
+      j.async = true;
+      j.src = '../../www.googletagmanager.com/gtm5445.html?id=' + i + dl;
+      f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-W6LN7D');</script><script src=js/require.min.js></script><script src=js/modernizr.min.js></script><script type=javascript>this.Element && function (ElementPrototype) {
+      ElementPrototype.closest = ElementPrototype.closest ||
+        function (selector) {
+          var el = this;
+          while (el.matches && !el.matches(selector)) el = el.parentNode;
+          return el.matches ? el : null;
+        }
+    }(Element.prototype);</script><link href=css/app.5f3baabd.css rel=preload as=style><link href=js/app.e44de71c.js rel=preload as=script><link href=js/chunk-vendors.bcae1d59.js rel=preload as=script><link href=css/app.5f3baabd.css rel=stylesheet></head><body style="background: #F0F0F0"><noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5W7WS6Q" height=0 width=0 style=display:none;visibility:hidden></iframe></noscript><noscript><strong>We're sorry but ui-ao-dashboard doesn't work properly without JavaScript disabled. Please enable it to continue.</strong></noscript><header id=ign-header class=ign-header role=header></header><div class=print--hidden id=portal-menu></div><div id=main role=main class=main><div id=dashboard_app></div></div><div class=print--hidden id=portal-footer></div><script>var xhr = new XMLHttpRequest(),
+    version = "v.txt+not+found",
+    folder = "v.txt+not+found",
+    RVBD_EUE,
+    riverbed = function () {
+      if (!RVBD_EUE) {
+        RVBD_EUE = {
+          startJS: Number(new Date()),
+          clientId: '5ae0196f-e33b-4754-b300-425e6b1c1c98',
+          appId: 1,
+          collector: 'eue-1.steelcentral.net',
+          collectorHttpPort: 80,
+          collectorHttpsPort: 443,
+          sv: '0401',
+          tag1: version,
+          tag2: folder
+        };
+        var w = window,
+            l = w.addEventListener,
+            m = w.attachEvent,
+            d = document,
+            s = 'script',
+            t = 'load',
+            o = RVBD_EUE,
+            z = '-1ec0805dd88c137a7d9b221342ef4c8b.',
+            r = (('https:' === d.location.protocol) ? 'https' : 'http') +
+            '://jsi-cdn.steelcentral.net/riverbed_appinternals.d.' +
+            (o.ajax ? 'ajax.js' : 'js'),
+            p = ('onpagehide' in w),
+            e = p ? 'pageshow' : t,
+            j = d.createElement(s),
+            x = d.getElementsByTagName(s)[0],
+            h = function (y) {
+              o.ldJS = o.ldJS || new Date();
+              o.per = y ? y.persisted : null;
+            },
+            i = function () {
+              o.ld = 1;
+            };
+        o.cookie = d.cookie;
+        d.cookie = '_op_aixPageId=0; path=/; expires=' + (new Date(0)).toUTCString();
+        o.cookieAfterDelete = d.cookie;
+        j.async = 1;
+        j.src = r;
+        if (l) {
+          l(e, h, false);
+          if (p) {
+            l(t, i, false);
+          }
+        } else if (m) {
+          m('on' + e, h);
+          if (p) {
+            m('on' + t, i);
+          }
+        }
+        if (o.sync) {
+          d.write('<' + s + ' src=\'' + r + '\'></' + s + '>');
+        } else if (RVBD_EUE) {
+          x.parentNode.insertBefore(j, x);
+        }
+      }
+    };
+
+  xhr.onload = function () {
+    if (this.readyState === 4 && this.status === 200) {
+      // Find the version from the file returned
+      version = this.responseText || "Version+not+found";
+      // Find the folder from the response header
+      folder = this.getResponseHeader("X-MAERSK-ENV-DEPLOYED") || "Deployed+folder+not+found";
+    }
+    riverbed();
+  };
+
+  xhr.onerror = function () {
+    riverbed();
+  }
+  // v.txt has the version in it. We'll also use this call to find out the deployed folder
+  xhr.open("GET.html", "v.txt", true);
+
+  xhr.setRequestHeader('Cache-Control', 'no-cache');
+
+  xhr.send();</script><script src=js/chunk-vendors.bcae1d59.js></script><script src=js/app.e44de71c.js></script></body>
+<!-- Mirrored from sample/dashboard/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 29 Oct 2019 11:34:39 GMT -->
+</html>
