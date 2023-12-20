@@ -88,8 +88,6 @@ else
     if($result > 0){
         echo "<script>alert('Record created successfully')</script>";
         echo "<script>window.location.href = 'customer_mails.php?email=$email_id'</script>";
-        
-       
     }
     else{
         echo "<script>window.location.href = 'error.php'</script>";

@@ -32,20 +32,28 @@
                 <div id="w-node-ea93e2df-3315-f60d-5e97-4279e21eb74a-0606ea11" class="efi-hr-04-right-content-2">
                     <div class="efi-hr-04-title-wrapper">
                         <div class="efi-label-2 big">Free rate estimates</div>
-                        <h1 class="heading-8">Know the cost before you ship it</h1>
+                        <h1 class="heading-8">Know the price before you ship it</h1>
                         <p class="efi-big-paragraph-2">We&#x27;ll offer a selection of rates to choose from that best match your preferences. </p>
                         <div class="div-block-19">
                             <div class="form-block w-form">
-                                <form action="header.php" id="wf-form-Email-Form" name="wf-form-Email-Form" data-name="Email Form" method="get" class="form" data-wf-page-id="65744f282f80a56a0606ea11" data-wf-element-id="ea93e2df-3315-f60d-5e97-4279e21eb754"><input type="text" class="text-field w-input" maxlength="256" name="Last-Name" data-name="Last Name" placeholder="First Name" id="Last-Name"><input type="text" class="text-field w-input" maxlength="256" name="Last-Name" data-name="Last Name" placeholder="Last Name" id="Last-Name" required=""><input type="text" class="w-input" maxlength="256" name="Email" data-name="Email" placeholder="Email" id="Email" required=""><input type="text" class="text-field w-node-ea93e2df-3315-f60d-5e97-4279e21eb758-0606ea11 w-input" maxlength="256" name="Last-Name-3" data-name="Last Name 3" placeholder="Phone Number" id="Last-Name-3" required=""><select id="Package-Type" name="Package-Type" data-name="Package Type" required="" class="w-node-ea93e2df-3315-f60d-5e97-4279e21eb759-0606ea11 w-select">
+                                <!-- <form action="header.php" id="wf-form-Email-Form" name="wf-form-Email-Form" data-name="Email Form" method="get" class="form" data-wf-page-id="65744f282f80a56a0606ea11" data-wf-element-id="ea93e2df-3315-f60d-5e97-4279e21eb754"> -->
+<!--                                <form action="--><?php //echo '../shipping_cost_calculator.php'; ?><!--" id="ReceiptKind" method="POST" class="form" accept-charset="utf-8">-->
+                                <form action="./index.php" id="ReceiptKind" method="POST" class="form" accept-charset="utf-8">
+                                    <input type="text" class="text-field w-input" maxlength="256" name="Last-Name" data-name="Last Name" placeholder="First Name" id="Last-Name">
+                                    <input type="text" class="text-field w-input" maxlength="256" name="Last-Name" data-name="Last Name" placeholder="Last Name" id="Last-Name" required="">
+                                    <input type="text" class="w-input" maxlength="256" name="Email" data-name="Email" placeholder="Email" id="Email" required="">
+                                    <input type="text" class="text-field w-node-ea93e2df-3315-f60d-5e97-4279e21eb758-0606ea11 w-input" maxlength="256" name="Last-Name-3" data-name="Last Name 3" placeholder="Phone Number" id="Last-Name-3" required="">
+                                    <select id="Package-Type" name="Package-Type" data-name="Package Type" required="" class="w-node-ea93e2df-3315-f60d-5e97-4279e21eb759-0606ea11 w-select">
                                         <option value="">Package type</option>
                                         <option value="First">Parcel</option>
                                         <option value="Second">Cosmetic</option>
                                         <option value="Third">Home Goods</option>
                                         <option value="Fourth option">Other</option>
                                     </select>
-<!--                                    <label for="Last-Name-3"></label>-->
-                                    <input type="text" class="text-field w-node-ea93e2df-3315-f60d-5e97-4279e21eb75a-0606ea11 w-input" maxlength="256" name="Last-Name-3" data-name="Last Name 3" placeholder="Weight " id="Last-Name-3" required=""><input type="text" class="text-field w-node-fc343296-5c1f-d03e-d675-33dfb59f84a1-0606ea11 w-input" maxlength="256" name="Demensions" data-name="Demensions" placeholder="Dimensions ( length/ width/ height )" id="Demensions" required="">
-                                    <div id="w-node-ea93e2df-3315-f60d-5e97-4279e21eb75c-0606ea11" class="w-form-formrecaptcha g-recaptcha g-recaptcha-error g-recaptcha-disabled g-recaptcha-invalid-key"></div><input type="submit" value="Submit" data-wait="Please wait..." class="w-button">
+                                    <input type="text" class="text-field w-node-ea93e2df-3315-f60d-5e97-4279e21eb75a-0606ea11 w-input" maxlength="256" name="Last-Name-3" data-name="Last Name 3" placeholder="Weight " id="Last-Name-3" required="">
+                                    <input type="text" class="text-field w-node-fc343296-5c1f-d03e-d675-33dfb59f84a1-0606ea11 w-input" maxlength="256" name="Demensions" data-name="Demensions" placeholder="Dimensions ( length/ width/ height )" id="Demensions" required="">
+                                    <div id="w-node-ea93e2df-3315-f60d-5e97-4279e21eb75c-0606ea11" class="w-form-formrecaptcha g-recaptcha g-recaptcha-error g-recaptcha-disabled g-recaptcha-invalid-key"></div>
+                                    <input type="submit" value="Submit" data-wait="Please wait..." class="w-button">
                                 </form>
                                 <div class="success-message w-form-done">
                                     <div>Thank you! Your submission has been received!</div>

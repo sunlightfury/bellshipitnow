@@ -3,6 +3,11 @@
 class Shippo_CustomsDeclaration extends Shippo_ApiResource
 {
     /**
+     * @var mixed|null
+     */
+    public $object_id;
+
+    /**
      * @param string $class Ignored.
      *
      * @return string The class URL for this resource. It needs to be special

@@ -164,14 +164,20 @@ h1,h2,h3,h4,h5,h6
 
 .navbar ul {
   margin: 0;
+  margin-top: 10px;
+  margin-bottom: -20px!important;
   padding: 0;
-  display: flex;
+  display: inline;
   list-style: none;
   align-items: center;
+  float: right;
+  font-size: 26px;
+  font-weight: bold;
 }
 
 .navbar li {
   position: relative;
+  padding-right: 20px;
 }
 
 .navbar>ul>li {
@@ -183,8 +189,9 @@ h1,h2,h3,h4,h5,h6
   align-items: center;
   justify-content: space-between;
   padding: 0 3px;
+  padding-top: 14;
   font-family: "Poppins", sans-serif;
-  /* color: rgba(255, 255, 255, 0.7) !important; */
+  color: #000;
   white-space: nowrap;
   transition: 0.3s;
   position: relative;
@@ -224,7 +231,7 @@ h1,h2,h3,h4,h5,h6
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  color: #fff;
+  color: rgba(255, 222, 34, 0.976);
 }
 
 .navbar .getstarted,
@@ -324,6 +331,11 @@ h1,h2,h3,h4,h5,h6
     left: -100%;
   }
 }
+
+#inline-login-btn {
+  margin-top: -10px!important;
+}
+
 
 /**
 * Mobile Navigation 

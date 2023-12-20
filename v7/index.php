@@ -521,7 +521,7 @@
         <div class="lynx-accordion-item">
             <div class="lynx-accordion-header">
                 <div class="lynx-icon-arrow">3</div>
-                <h6 class="lynx-heading-accordion">To ship from our warehouse to your desired location, <a href="#"><strong class="bold-text-2">login</strong></a><strong> </strong>or <a href="#"><strong class="bold-text">create an account</strong></a><strong> </strong>to curate a selection of rates from our providers and select your preferences. Well handle the rest!</h6>
+                <h6 class="lynx-heading-accordion">To ship from our warehouse to your desired location, <a href="../login.php"><strong class="bold-text-2">login</strong></a><strong> </strong>or <a href="../sign-up.php"><strong class="bold-text">create an account</strong></a><strong> </strong>to curate a selection of rates from our providers and select your preferences. Well handle the rest!</h6>
             </div>
             <div class="lynx-accordion-content"></div>
         </div>
@@ -609,8 +609,7 @@
         $('.doconly').hide();
         document.getElementById('sum2').required = true;
         $('.input-group input').prop('disabled',false);
-      }
-      else
+      } else
       {
         $('.nondoc').hide();
         $('.doconly').show();
@@ -620,7 +619,7 @@
     }
   </script>
 
-<script src="assets/js/webflow.js" type="text/javascript"></script>
+<!--<script src="assets/js/webflow.js" type="text/javascript"></script>-->
 <?php
     include('footer.php');
 ?>

@@ -336,8 +336,8 @@
             </div>
         </div>
         <div class="cf-footer-column">
-            <a href="#" class="link">Privacy Policy</a>
-            <a href="#" class="link-2">Terms &amp; Conditions</a>
+            <a href="../terms-and-privacy.php" class="link">Privacy Policy</a>
+            <a href="../terms-and-privacy.php" class="link-2">Terms &amp; Conditions</a>
         </div>
         </div>
     </div>

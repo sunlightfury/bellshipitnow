@@ -21,7 +21,7 @@
       <div class="cf-footer-top-left">
         <a href="#" class="cf-navigation-1-logo w-nav-brand">
           <div class="cf-logo-lines-contain"></div>
-          <div class="cf-logo-text">Bell Ship It Now!</div>
+          <div class="cf-logo-text">BellShipItNow!</div>
         </a>
         <p class="cf-footer-paragraph-16px">Your trusted warehouse for storing and delivering.</p>
         <div class="cf-footer-links-contain">
@@ -32,8 +32,8 @@
         </div>
       </div>
       <div class="cf-footer-column">
-        <a href="#" class="link" style="color:white !important;">Privacy Policy</a>
-        <a href="#" class="link-2" style="color:white !important;">Terms &amp; Conditions</a>
+        <a href="../terms-and-privacy.php" class="link" style="color:white !important;">Privacy Policy</a>
+        <a href="../terms-and-privacy.php" class="link-2" style="color:white !important;">Terms &amp; Conditions</a>
       </div>
     </div>
   </div>

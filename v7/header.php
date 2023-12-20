@@ -71,13 +71,22 @@
         // the path to the animation JSON file
     });
   </script>
+  <script type="text/javascript">
+    (function(c,l,a,r,i,t,y){
+        c[a]=c[a]function(){(c[a].q=c[a].q[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script", "k91td8m7g5");
+</script>
 </head>
 
 <body data-w-id="5bcd4d1b9f4e0e4bca6d4334">
+  
   <header id="header" class="fixed-top">
+  
     <div data-collapse="medium" data-animation="default" data-duration="400" data-easing="ease" data-easing2="ease" role="banner" class="navbar w-nav">
-        <div>
-            <div data-w-id="2b31304e-cb3a-a27c-1fe2-2673f77a9774" class="_141-menu-wrapper">
+          <div>
+            <div data-w-id="2b31304e-cb3a-a27c-1fe2-2673f77a9774" class="_141-menu-wrapper" id='accordion-nav'>
                 <div data-preserve-aspect-ratio="none" data-w-id="d319fda4-28d7-f568-2692-6c623b3cadea" data-is-ix2-target="1" class="lottie-animation" data-animation-type="lottie" data-src="./document/menu-animation.json" data-loop="0" data-direction="1" data-autoplay="0" data-renderer="svg" data-default-duration="1" data-duration="0" data-ix2-initial-state="0">
                   <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 200 1000" width="200" height="1000" preserveAspectRatio="none" style="width: 100%; height: 100%; transform: translate3d(0px, 0px, 0px); content-visibility: visible;">
                     <defs>
@@ -114,12 +123,20 @@
                     <div class="_141-close-button-outer"></div>
                     <div data-w-id="2b31304e-cb3a-a27c-1fe2-2673f77a978d" class="_141-close-button-inner"></div>
                     <div class="_141-close-button-x"></div>
-                    <div class="_141-close-button-x _2"></div>
+                    <div class="_141-close-button-x _2"></div> 
                 </div>
             </div>
         </div>
       <div id="w-node-_2b31304e-cb3a-a27c-1fe2-2673f77a9790-f77a9772" class="div-block-18">
         <div class="div-block-20"><img src="./assets/img/added_imgs/Belllogo-1_1Belllogo-1.png" loading="lazy" alt="" class="image-16"></div>
+        <div id="inline-nav" class="nav-inline-ui">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item"><a class="nav-link scrollto" href="./about.php" target="_blank">About Us</a></li>
+            <li class="nav-item"><a class="nav-link scrollto" href="./free_rate_estimate.php" target="_blank">Free Rate Estimate</a></li>
+            <li class="nav-item"><a class="nav-link scrollto" href="./contact.php" target="_blank">Contact Us</a></li>
+            <li class="nav-item"><a class="efi-button first-button w-button" id="inline-login-btn" href="../login.php" target="_blank">Login</a></li>
+          </ul> 
+        </div>
         <div data-w-id="2b31304e-cb3a-a27c-1fe2-2673f77a9791" id="accordion_btn" class="_141-open-button-wrapper">
           <div class="_141-open-button-outer"></div>
           <div data-w-id="2b31304e-cb3a-a27c-1fe2-2673f77a9793" class="_141-open-button-inner"></div>
@@ -132,3 +149,20 @@
       </div>
     </div>
   </header>
+
+  <script>
+
+    setInterval(() => {
+      let width = window.innerWidth;
+
+      console.log(width);
+      if (width < 1280) {
+        $('#inline-nav').css('display', 'none');
+        $('#accordion_btn').css('display', "flex");
+      } else {
+        $('#accordion_btn').css('display', "none");
+        $('#inline-nav').css('display', 'block');
+      }
+    }, 100)
+    
+  </script>

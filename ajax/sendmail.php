@@ -30,11 +30,11 @@
       if (empty($_POST['name']))
           Filter::$msgs['name'] = 'Please enter your name';
       
-      if (empty($_POST['captcha']))
-          Filter::$msgs['code'] = "Please enter captcha code";
+    //   if (empty($_POST['captcha']))
+    //       Filter::$msgs['code'] = "Please enter captcha code";
       
-	  if ($_SESSION['captchacode'] != $_POST['captcha'])
-          Filter::$msgs['code'] = "Entered captcha code is incorrect";
+	//   if ($_SESSION['captchacode'] != $_POST['captcha'])
+    //       Filter::$msgs['code'] = "Entered captcha code is incorrect";
 		  
       if (empty($_POST['email']))
           Filter::$msgs['email'] = 'Please enter your email address';
@@ -46,18 +46,15 @@
           Filter::$msgs['message'] = 'Please enter your message';
       
       if (empty(Filter::$msgs)) {
-          
           $sender_email = sanitize($_POST['email']);
           $name = sanitize($_POST['name']);
           $message = strip_tags($_POST['message']);
 		  $mailsubject = sanitize($_POST['subject']);
 		  $ip = sanitize($_SERVER['REMOTE_ADDR']);
-
-		  require_once(BASEPATH . "lib/class_mailer.php");
+       require_once(BASEPATH . "lib/class_mailer.php");
 		  $mailer = $mail->sendMail();	
-					  
+          
 		  $row = Core::getRowById("email_templates", 10);
-		  
 		  $body = str_replace(array('[MESSAGE]', '[SENDER]', '[NAME]', '[MAILSUBJECT]', '[IP]', '[SITE_NAME]', '[URL]'), 
 		  array($message, $sender_email, $name, $mailsubject, $ip, $core->site_name, $core->site_url), $row->body);
 

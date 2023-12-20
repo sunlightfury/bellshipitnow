@@ -56,6 +56,7 @@
 	  public function sendMail()
 	  {
 		  require_once(BASEPATH . 'lib/swift/swift_required.php');
+          echo "123123";
 		  
           if ($this->mailer == "SMTP") {
 			  $SSL = ($this->is_ssl) ? 'ssl' : null;

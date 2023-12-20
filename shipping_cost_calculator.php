@@ -48,6 +48,7 @@
         'origin_country' => 'US',
         'tariff_number' => '',
     );
+
     // Creating the Customs Declaration
     // The details on creating the CustomsDeclaration is here: https://goshippo.com/docs/reference#customsdeclarations
     $customs_declaration = Shippo_CustomsDeclaration::create(
@@ -62,13 +63,11 @@
     
     // $shipObj = json_decode($shipment);
     // foreach($shipObj->rates as $key => $value){
-    
     // }
 
     // // print_r($shipObj);
 
-try
-{
+try {
     $shipment = Shippo_Shipment::create( array(
         'address_from'=> $fromAddress,
         'address_to'=> $toAddress,
@@ -91,8 +90,8 @@ try
     $_SESSION['zipcode'] = $_POST['zipcode'];
     // print_r($_SESSION); exit();
 }
-catch(Exception $e)
-{
+
+catch(Exception $e) {
     $session['message'] = $e;
 }
 

@@ -338,6 +338,8 @@ h1 {
   height: 50px;
   cursor: pointer;
   justify-content: center;
+  margin-top: 10px;
+  margin-bottom: -20px;
   align-items: center;
   display: flex;
   position: relative;
