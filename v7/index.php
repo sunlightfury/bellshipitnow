@@ -108,7 +108,7 @@
                 <div class="spacer-30"></div>
                 <p class="paragraph-large centered-svp">Our automated warehouse allows our customers to forward their packages to their selected countries at no additional servicing fees.</p>
                 <div class="spacer-60 firstbutton">
-                    <a href="#" class="efi-button first-button w-button">Get Started!</a>
+                    <a href="../login.php" class="efi-button first-button w-button">Get Started!</a>
                 </div>
             </div>
             <div class="spacer-60 _60-width"></div>
@@ -533,7 +533,7 @@
             <div class="lynx-accordion-content"></div>
         </div>
     </div>
-    <a href="#" class="button-2 w-button">Get Started</a>
+    <a href="../login.php" class="button-2 w-button">Get Started</a>
 </div>
 <!-- End How It Works Section-->
 

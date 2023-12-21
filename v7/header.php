@@ -134,7 +134,8 @@
             <li class="nav-item"><a class="nav-link scrollto" href="./about.php" target="_blank">About Us</a></li>
             <li class="nav-item"><a class="nav-link scrollto" href="./free_rate_estimate.php" target="_blank">Free Rate Estimate</a></li>
             <li class="nav-item"><a class="nav-link scrollto" href="./contact.php" target="_blank">Contact Us</a></li>
-            <li class="nav-item"><a class="efi-button first-button w-button" id="inline-login-btn" href="../login.php" target="_blank">Login</a></li>
+            <li class="nav-item"><a class="efi-button first-button w-button" id="inline-login-top-right-btn" href="../login.php" target="_blank">Login</a></li>
+            <li class="nav-item"><a class="efi-button first-button w-button" id="inline-signup-top-right-btn" href="../sign-up.php" target="_blank">Sign up</a></li>
           </ul> 
         </div>
         <div data-w-id="2b31304e-cb3a-a27c-1fe2-2673f77a9791" id="accordion_btn" class="_141-open-button-wrapper">

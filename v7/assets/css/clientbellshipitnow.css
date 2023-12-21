@@ -8,6 +8,34 @@
   --blue: #4d16dd;
 }
 
+#inline-signup-top-right-btn {
+  background-color: #ffffff;
+  color: #000000!important;
+  border: 1px #000000 solid;
+  padding: 12px 35px!important;
+}
+
+#inline-signup-top-right-btn:hover {
+  background-color: #000000;
+  color: #ffffff!important;
+  padding: 12px 35px!important;
+  margin-top: 9px;
+}
+
+#inline-login-top-right-btn {
+  background-color: #000000;
+  color: #ffffff!important;
+  padding: 12px 35px!important;
+}
+
+#inline-login-top-right-btn:hover {
+  background-color: #ffffff;
+  color: #000000!important;
+  border: 1px #000000 solid;
+  padding: 12px 35px!important;
+  margin-top: 9px;
+}
+
 .w-layout-grid {
   grid-row-gap: 16px;
   grid-column-gap: 16px;
@@ -1199,7 +1227,7 @@ button:hover {
   height: 730px;
   justify-content: center;
   align-items: center;
-  margin-top: 179px;
+  margin-top: 110px;
   display: flex;
 }
 
@@ -1394,7 +1422,7 @@ button:hover {
   z-index: 5;
   width: 100%;
   height: 100%;
-  margin-top: 150px;
+  margin-top: 10px;
   grid-column-gap: 24px;
   grid-row-gap: 24px;
   flex-direction: column;
