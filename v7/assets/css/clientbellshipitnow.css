@@ -5847,3 +5847,15 @@ button:hover {
   font-style: normal;
   font-display: auto;
 }
+
+@media(min-width: 1280px) {
+  div._141-open-button-wrapper {
+    display: none!important;
+  }
+}
+
+@media (max-width: 1280px) {
+  div.nav-inline-ui {
+    display: none!important;
+  }
+}

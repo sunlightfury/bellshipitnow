@@ -103,7 +103,7 @@
                     </g>
                   </svg>
                 </div>
-                <div class="_141-nav-wrapper">
+                <div class="_141-nav-wrapper" >
                     <a href="./about.php" class="_141-nav-item w-inline-block" target="_blank">
                         <div class="_141-nav-text">About Us</div>
                         <div class="_141-nav-decoration"></div>
@@ -151,19 +151,4 @@
     </div>
   </header>
 
-  <script>
-
-    setInterval(() => {
-      let width = window.innerWidth;
-
-      console.log(width);
-      if (width < 1280) {
-        $('#inline-nav').css('display', 'none');
-        $('#accordion_btn').css('display', "flex");
-      } else {
-        $('#accordion_btn').css('display', "none");
-        $('#inline-nav').css('display', 'block');
-      }
-    }, 100)
-    
-  </script>
+ 
