@@ -86,38 +86,41 @@
   
     <div data-collapse="medium" data-animation="default" data-duration="400" data-easing="ease" data-easing2="ease" role="banner" class="navbar w-nav">
           <div>
-            <div data-w-id="2b31304e-cb3a-a27c-1fe2-2673f77a9774" class="_141-menu-wrapper" id='accordion-nav'>
+            <!-- <div data-w-id="2b31304e-cb3a-a27c-1fe2-2673f77a9774" class="_141-menu-wrapper" id='accordion-nav'> -->
+            <div data-w-id="2b31304e-cb3a-a27c-1fe2-2673f77a9774" class="_141-menu-wrapper">
                 <div data-preserve-aspect-ratio="none" data-w-id="d319fda4-28d7-f568-2692-6c623b3cadea" data-is-ix2-target="1" class="lottie-animation" data-animation-type="lottie" data-src="./document/menu-animation.json" data-loop="0" data-direction="1" data-autoplay="0" data-renderer="svg" data-default-duration="1" data-duration="0" data-ix2-initial-state="0">
                   <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 200 1000" width="200" height="1000" preserveAspectRatio="none" style="width: 100%; height: 100%; transform: translate3d(0px, 0px, 0px); content-visibility: visible;">
                     <defs>
                       <clipPath id="__lottie_element_2">
-                        <rect width="200" height="1000" x="0" y="0"></rect>
+                        <rect width="300" height="1000" x="0" y="0"></rect>
                       </clipPath>
                     </defs>
                     <g clip-path="url(#__lottie_element_2)">
                       <g transform="matrix(1,0,0,1,-0.25,-0.25)" opacity="1" style="display: block;">
                         <g opacity="1" transform="matrix(1,0,0,1,100.25,500.25)">
-                          <path fill="rgb(22,22,22)" fill-opacity="1" d=" M100,500 C100,500 0,500 0,500 C0,500 0,299.5 0,-0.5 C0,-300.5 0,-500 0,-500 C0,-500 100,-500 100,-500 C100,-500 100,500 100,500z"></path>
+                          <path fill="rgb(22,22,22)" fill-opacity="1" d=" M100,500 C100,500 0,500 0,500 C0,500 0,299.5 0,-0.5 C0,-300.5 0,-500 0,-500 C0,-500 100,-500 100,-500 C100,-500 100,500 100,500z">
+                            
+                          </path>
                         </g>
                       </g>
                     </g>
                   </svg>
                 </div>
                 <div class="_141-nav-wrapper" >
-                    <a href="./about.php" class="_141-nav-item w-inline-block" target="_blank">
+                    <a href="./about.php" class="_141-nav-item w-inline-block">
                         <div class="_141-nav-text">About Us</div>
                         <div class="_141-nav-decoration"></div>
                     </a>
-                    <a href="./free_rate_estimate.php" class="_141-nav-item w-inline-block" target="_blank">
+                    <a href="./free_rate_estimate.php" class="_141-nav-item w-inline-block">
                         <div class="_141-nav-text">Free Rate Estimate</div>
                         <div class="_141-nav-decoration"></div>
                     </a>
-                    <a href="./contact.php" class="_141-nav-item w-inline-block" target="_blank">
+                    <a href="./contact.php" class="_141-nav-item w-inline-block">
                         <div class="_141-nav-text">Contact Us</div>
                         <div class="_141-nav-decoration"></div>
                     </a>
-                    <a href="../login.php" class="button-3 w-button" target="_blank">Login</a>
-                    <a href="../sign-up.php" class="efi-button first-button w-button" target="_blank">Create An Account</a>
+                    <a href="../login.php" class="button-3 w-button">Login</a>
+                    <a href="../sign-up.php" class="efi-button first-button w-button">Create An Account</a>
                 </div>
                 <div data-w-id="2b31304e-cb3a-a27c-1fe2-2673f77a978b" class="_141-close-button-wrapper">
                     <div class="_141-close-button-outer"></div>
@@ -128,14 +131,18 @@
             </div>
         </div>
       <div id="w-node-_2b31304e-cb3a-a27c-1fe2-2673f77a9790-f77a9772" class="div-block-18">
-        <div class="div-block-20"><img src="./assets/img/added_imgs/Belllogo-1_1Belllogo-1.png" loading="lazy" alt="" class="image-16"></div>
+      <a href="./index.php">
+        <div class="div-block-20">
+            <img src="./assets/img/added_imgs/Belllogo-1_1Belllogo-1.png" loading="lazy" alt="" class="image-16">
+        </div>
+      </a>
         <div id="inline-nav" class="nav-inline-ui">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item"><a class="nav-link scrollto" href="./about.php" target="_blank">About Us</a></li>
-            <li class="nav-item"><a class="nav-link scrollto" href="./free_rate_estimate.php" target="_blank">Free Rate Estimate</a></li>
-            <li class="nav-item"><a class="nav-link scrollto" href="./contact.php" target="_blank">Contact Us</a></li>
-            <li class="nav-item"><a class="efi-button first-button w-button" id="inline-login-top-right-btn" href="../login.php" target="_blank">Login</a></li>
-            <li class="nav-item"><a class="efi-button first-button w-button" id="inline-signup-top-right-btn" href="../sign-up.php" target="_blank">Sign up</a></li>
+            <li class="nav-item"><a id="nav-link-id" class="nav-link scrollto" href="./about.php">About Us</a></li>
+            <li class="nav-item"><a id="nav-link-id" class="nav-link scrollto" href="./free_rate_estimate.php">Free Rate Estimate</a></li>
+            <li class="nav-item"><a id="nav-link-id" class="nav-link scrollto" href="./contact.php">Contact Us</a></li>
+            <li class="nav-item"><a class="efi-button first-button w-button" id="inline-login-top-right-btn" href="../login.php">Login</a></li>
+            <li class="nav-item"><a class="efi-button first-button w-button" id="inline-signup-top-right-btn" href="../sign-up.php">Sign up</a></li>
           </ul> 
         </div>
         <div data-w-id="2b31304e-cb3a-a27c-1fe2-2673f77a9791" id="accordion_btn" class="_141-open-button-wrapper">

@@ -32,7 +32,7 @@
                       <div class="browser-dot green"></div>
                   </div>
               </div>
-              <a href="#" data-w-id="2c8f426c-105e-1462-ef35-d5abe1b76311" class="_160-button-wrapper w-inline-block w-lightbox">
+              <a href="./free_rate_estimate.php" data-w-id="2c8f426c-105e-1462-ef35-d5abe1b76311" class="_160-button-wrapper w-inline-block w-lightbox">
                   <div class="_160-button-bg"></div>
                   <div class="_160-text-wrapper">
                       <div class="_160-first-text">Check<br>Rates</div>
@@ -255,7 +255,7 @@
                     <p class="f-paragraph-large-2">Merchant won&#x27;t accept your non-US credit card? No problem! Let us buy your items for you at NO additional charge. Our free concierge service allows our customers in 220+ countries to shop from a large number of US merchants who ship strictly to the United States and/or do not accept international credit cards.</p>
                 </div>
                 <div class="f-logo-button-wrapper">
-                    <a href="./about.php" class="efi-button w-button" target="_blank">About Us</a>
+                    <a href="./about.php" class="efi-button w-button">About Us</a>
                 </div>
             </div>
         </div>

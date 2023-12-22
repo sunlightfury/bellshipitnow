@@ -3,7 +3,7 @@ jQuery(document).ready(function($)
     $('#loading').hide();
     $('#accordion_btn').on("click", function (e) {
         document.querySelector('._141-open-button-wrapper').style.zIndex = "0";
-        document.body.insertAdjacentHTML('beforeend', "<div style='position: fixed; width: 100%; height: 100%; z-index: 20;left: 0; top: 0;' id='overlay-temp'></div>");
+        document.body.insertAdjacentHTML('beforeend', "<div style='position: fixed; width: 100%; height: 100%; z-index: 300;left: 0; top: 0;' id='overlay-temp'></div>");
         $("#overlay-temp").click(function () {
             document.querySelector('._141-close-button-wrapper').click();
         })
