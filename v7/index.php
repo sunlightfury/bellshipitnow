@@ -47,7 +47,6 @@
       </div>
   </div>
 <!--</section>-->
-<!-- End Hero -->
 
 <!--Second section goes here-->
 <section class="m-3 mb-5 pb-5">

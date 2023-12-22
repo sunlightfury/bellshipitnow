@@ -19,9 +19,14 @@
   <div class="cf-footer-section-white" id="here">
     <div class="cf-footer-top-wrapper">
       <div class="cf-footer-top-left">
-        <a href="#" class="cf-navigation-1-logo w-nav-brand">
+        <a href="index.php" class="cf-navigation-1-logo w-nav-brand">
           <div class="cf-logo-lines-contain"></div>
-          <div class="cf-logo-text">BellShipItNow!</div>
+          <div style="display: flex">
+            <div class="logo_class">
+                <img src="./assets/img/logo_footer_prev_ui.png" alt="">
+            </div>
+            <div class="cf-logo-text">BellShipItNow!</div>
+          </div>
         </a>
         <p class="cf-footer-paragraph-16px">Your trusted warehouse for storing and delivering.</p>
         <div class="cf-footer-links-contain">

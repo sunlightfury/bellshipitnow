@@ -3842,6 +3842,8 @@ button:hover {
   font-size: 32px;
   font-weight: 700;
   line-height: 106%;
+  margin-top: 15px;
+  margin-left: 10px;
 }
 
 .cf-footer-links-contain {
@@ -4344,10 +4346,10 @@ button:hover {
 }
 
 .div-block-20 {
-  width: 146px;
+  width: 110px;
   height: auto;
   position: absolute;
-  top: -10%;
+  top: 20%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -4357,14 +4359,19 @@ button:hover {
 }
 
 .image-16 {
-  width: 100%;
+  width: 70%;
   height: 100%;
   background-image: url('../img/added_imgs/Belllogo-1_1Belllogo-1.png');
   background-size: contain;
-  margin-left: -70px;
+  margin-left: -40px;
+  margin-top: 26px;
 }
 
 @media screen and (min-width: 1280px) {
+  .logo_class {
+    width: 75px;
+  }
+
   .navbar-content {
     margin-left: 217px;
     margin-right: 97px;
@@ -5429,6 +5436,11 @@ button:hover {
 }
 
 @media screen and (max-width: 767px) {
+  .logo_class {
+    width: 75px;
+  }
+
+
   .demo-wrapper {
     margin-top: 180px;
     margin-bottom: 180px;
@@ -5587,10 +5599,10 @@ button:hover {
   }
 
   .div-block-20 {
-    width: 146px;
+    width: 100px;
     height: auto;
     position: absolute;
-    top: -14%;
+    top: 14%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -6956,6 +6968,10 @@ button:hover {
     align-self: center;
     justify-self: auto;
   }
+
+  .logo_class {
+    width: 65px;
+  }
 }
 
 
@@ -6984,11 +7000,46 @@ button:hover {
 @media(min-width: 1280px) {
   div._141-open-button-wrapper {
     display: none!important;
+
+
   }
+
+  .div-block-20 {
+    width: 110px;
+    height: auto;
+    position: absolute;
+    top: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: auto;
+    left: 0%;
+    right: auto;
+  }
+
+
 }
 
 @media (max-width: 1280px) {
   div.nav-inline-ui {
     display: none!important;
   }
+
+  .logo_class {
+    width: 75px;
+  }
+
+  .div-block-20 {
+    width: 100px;
+    height: auto;
+    position: absolute;
+    top: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: auto;
+    left: 0%;
+    right: auto;
+  }
 }
+

@@ -133,7 +133,8 @@
       <div id="w-node-_2b31304e-cb3a-a27c-1fe2-2673f77a9790-f77a9772" class="div-block-18">
       <a href="./index.php">
         <div class="div-block-20">
-            <img src="./assets/img/added_imgs/Belllogo-1_1Belllogo-1.png" loading="lazy" alt="" class="image-16">
+            <!-- <img src="./assets/img/added_imgs/Belllogo-1_1Belllogo-1.png" loading="lazy" alt="" class="image-16"> -->
+            <img src="./assets/img/logo_1.png" loading="lazy" alt="" class="image-16">
         </div>
       </a>
         <div id="inline-nav" class="nav-inline-ui">
